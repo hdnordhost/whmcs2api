@@ -31,7 +31,7 @@ function namesrs_setContactDetails($params)
    */
   $pdo = Capsule::connection()->getPdo();
 
-  $error = false;
+  $error = null;
   $success = false;
   $phone = array();
   $values = array();
